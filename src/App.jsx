@@ -264,7 +264,7 @@ function App() {
                       </a> schreiben.
                     </p>
                   )}
-                  <button type="submit" className="btn btn-dark" style={{ width: '100%', marginTop: '0.25rem' }}
+                  <button type="submit" className="btn btn-cta" style={{ width: '100%', marginTop: '0.25rem' }}
                     disabled={status === 'loading'}>
                     {status === 'loading' ? 'Wird gesendet…' : 'Jetzt Platz sichern'}
                   </button>
