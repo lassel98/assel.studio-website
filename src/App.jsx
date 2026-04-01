@@ -33,8 +33,8 @@ function App() {
             </div>
             
             <h1 className="animate-fade-up" style={{ animationDelay: '0.3s' }}>
-              Baue und skaliere die <br />
-              <span className="text-gradient">digitale Maschine.</span>
+              Webdesign & Automation für <br />
+              <span className="text-gradient">Würzburg & DACH.</span>
             </h1>
             
             <p className="animate-fade-up hero-subtitle" style={{ animationDelay: '0.4s' }}>
@@ -53,8 +53,8 @@ function App() {
         <section id="services" className="section bg-secondary">
           <div className="container">
             <div className="section-header animate-fade-up">
-              <h2>Unsere Systeme</h2>
-              <p className="text-secondary">Maßgeschneiderte MRR-Lösungen für maximale Effizienz und Lead-Capture.</p>
+              <h2>Webdesign & Automation für Würzburger KMUs</h2>
+              <p className="text-secondary">Maßgeschneiderte Systeme für maximale Effizienz und automatische Lead-Generierung.</p>
             </div>
             
             <div className="services-grid">
@@ -84,14 +84,17 @@ function App() {
           <div className="container" style={{ position: 'relative' }}>
             <div className="audit-card glass animate-fade-up">
               <div className="audit-content">
-                <h2>Der "Free Value" Ansatz</h2>
-                <p className="text-secondary" style={{ marginBottom: '2rem' }}>
-                  Wir beweisen unseren Wert, bevor wir eine Rechnung stellen. 
-                  Fordern Sie eine kostenfreie Website-Intelligence-Analyse oder ein Mini-Redesign an. 
-                  Kein Risiko, keine Agentur-Phrasen.
+                <div className="scarcity-badge animate-fade-up" style={{ animationDelay: '0.1s' }}>
+                  <span className="pulse-dot"></span> Exklusiv: Nur 10 kostenfreie Audits pro Monat
+                </div>
+                <h2 className="animate-fade-up" style={{ animationDelay: '0.2s' }}>Der "Free Value" Ansatz</h2>
+                <p className="text-secondary animate-fade-up" style={{ animationDelay: '0.3s', marginBottom: '2rem' }}>
+                  Echte Analysen kosten uns Ressourcen. Um unseren Wert vorab zu beweisen, bieten wir 
+                  <strong style={{ color: 'var(--text-primary)', fontWeight: '500' }}> streng limitiert für 10 ausgewählte Unternehmen </strong> 
+                  pro Monat eine tiefe Website-Intelligence-Analyse an – 100% kostenfrei und ohne Risiko.
                 </p>
-                <div className="hero-actions" style={{ justifyContent: 'flex-start' }}>
-                  <a href="mailto:louis@assel.studio" className="btn-primary">Audit jetzt anfordern</a>
+                <div className="hero-actions animate-fade-up" style={{ animationDelay: '0.4s', justifyContent: 'flex-start' }}>
+                  <a href="mailto:louis@assel.studio" className="btn-primary">Jetzt Platz sichern</a>
                 </div>
               </div>
               <div className="audit-glow"></div>
@@ -104,8 +107,16 @@ function App() {
       <footer className="footer border-top">
         <div className="container">
           <div className="footer-content">
-            <div className="logo">
-              assel<span className="text-accent">.studio</span>
+            <div>
+              <div className="logo">
+                assel<span className="text-accent">.studio</span>
+              </div>
+              <p className="text-secondary" style={{ fontSize: '0.8125rem', marginTop: '0.5rem' }}>
+                Webdesign & KI-Automation · Würzburg, Bayern
+              </p>
+              <a href="mailto:louis@assel.studio" className="text-secondary" style={{ fontSize: '0.8125rem' }}>
+                louis@assel.studio
+              </a>
             </div>
             <div className="footer-links">
               <a href="#" className="text-secondary">Impressum</a>
