@@ -90,6 +90,9 @@ function App() {
 
       {/* ── Hero ── */}
       <section className="hero">
+        <video autoPlay loop muted playsInline className="hero-video">
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
         <div className="hero-bg">
           <div className="hero-gradient" />
           <div className="hero-grid" />
